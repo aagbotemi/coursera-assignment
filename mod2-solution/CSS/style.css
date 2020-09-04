@@ -6,7 +6,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0px 10px;
+}
+
+.wrapper {
+    margin: 0px 20px;
 }
 
 h1 {
@@ -17,11 +20,10 @@ h1 {
 
 p {
     background-color: grey;
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 15px;
+    margin-left: 15px;
     border: 1px solid #000;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 45px 10px 20px 10px;
     position: relative;
     font-size: 16px;
@@ -72,7 +74,14 @@ span {
         float: left;
         width: 50%;
     }
-    .md-1 {
-        clear: left;
+    .col-md-12 {
+        float: left;
+    }
+}
+
+/*for small devices (mobile screen)*/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
     }
 }
