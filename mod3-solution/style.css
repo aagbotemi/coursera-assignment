@@ -18,6 +18,10 @@ body {
     background-color: #fff;
     border: 1px solid #000;
 }
+.navbar .navbar-collapse .navbar-nav .nav-item a {
+    color: #000;
+    font-weight: bold;
+}
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
     transform: translatex(50%);
 }
