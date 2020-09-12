@@ -25,29 +25,28 @@ body {
 .container h1 {
     font-weight: bold;
     margin-top: 0.5rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
 }
-.container .row .col-sm-12 p {
+.container .row .col-sm-12{
+    margin-bottom: 2rem;
+}
+.container .row .col-sm-12 .box {
     background-color: grey;
-    padding: 45px 10px 20px 10px;
-    position: relative;
+    padding: 5px 10px 20px 10px;
     font-size: 16px;
     border: 2px solid #000;
 }
-small {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 2px 18px;
-    border: 1px solid #000;
-    font-size: 22px;
+.menu {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
 }
-.title1 {
-    background-color: rgb(199, 16, 10);
+
+p a {
+    color: rgb(8, 62, 241);
 }
-.title2 {
-    background-color: rgb(199, 10, 199);
-}
-.title3 {
-    background-color: rgba(17, 235, 235);
+
+p a:hover {
+    text-decoration: none;
+    color: rgb(29, 2, 73);
 }
