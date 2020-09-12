@@ -14,10 +14,9 @@ body {
     font-weight: bold;
 }
 .navbar .navbar-collapse{
-    margin-bottom: -0.8rem;
+    margin-bottom: -0.5rem;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item {
-    margin: 0px -15px;
     background-color: #fff;
     border: 1px solid #000;
 }
