@@ -13,27 +13,41 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item {
-    margin: 0px -15px;
-    background-color: #fff;
-    border: 1px solid #000;
-}
 .navbar .navbar-collapse .navbar-nav .nav-item a {
     color: #000;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
-    transform: translatex(50%);
+    text-align: center;
+    padding: 0.8rem;
 }
 .container h1 {
-    margin-top: 0.5rem;
-}
-.container h1, .container .row .col-sm-12 h3 {
     font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1.8rem;
 }
 .container .row .col-sm-12 p {
-    font-size: 18px;
-}
-.container .row .col-sm-12 div {
     background-color: grey;
+    padding: 45px 10px 20px 10px;
+    position: relative;
+    font-size: 16px;
+    border: 2px solid #000;
+}
+small {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 18px;
+    border: 1px solid #000;
+    font-size: 22px;
+}
+.title1 {
+    background-color: rgb(199, 16, 10);
+}
+.title2 {
+    background-color: rgb(199, 10, 199);
+}
+.title3 {
+    background-color: rgba(17, 235, 235);
 }
