@@ -33,8 +33,3 @@ body {
 .container .row .col-sm-12 div {
     background-color: grey;
 }
-@media (min-width: 576px) {
-    .navbar-toggler {
-        display: none;
-    }
-}
