@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lora', serif;
+}
+.navbar {
+    background-color: grey;
+}
+.navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar .navbar-collapse{
+    margin-bottom: -0.8rem;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item {
+    margin: 0px -15px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    transform: translatex(50%);
+}
+.container h1 {
+    margin-top: 0.5rem;
+}
+.container h1, .container .row .col-sm-12 h3 {
+    font-weight: bold;
+}
+.container .row .col-sm-12 p {
+    font-size: 18px;
+}
+.container .row .col-sm-12 div {
+    background-color: grey;
+}
+@media (min-width: 576px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
